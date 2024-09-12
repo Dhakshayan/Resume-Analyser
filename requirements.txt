@@ -2,5 +2,5 @@ streamlit==1.23.1
 pdfminer.six
 transformers==4.25.1
 torch==2.0.0
-tokenizers==0.13.3
+tokenizers
 pillow
