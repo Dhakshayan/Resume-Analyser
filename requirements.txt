@@ -1,3 +1,5 @@
 streamlit==1.23.1
 pdfminer.six==20201018
 scikit-learn==1.0.2
+numpy==1.18.0
+Cython
