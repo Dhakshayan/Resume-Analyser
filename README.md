@@ -36,16 +36,16 @@ Ensure you have Python 3.x installed on your system. You can install all necessa
 
 Each application can be run separately using the following commands:
 
-For the scikit-learn based application:
+* For the scikit-learn based application:
     ```bash
     streamlit run app_scikit.py
     ```
-For the DistilBERT PyTorch based application:
+* For the DistilBERT PyTorch based application:
     ```bash
     streamlit run app_torch.py
     ```
 
-For the spaCy based application:
+* For the spaCy based application:
     ```bash
     streamlit run app_spaCy.py
     ```
