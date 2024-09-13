@@ -1,5 +1,7 @@
 streamlit==1.23.1
 pdfminer.six==20201018
 scikit-learn==1.0.2
-numpy==1.18.0
-Cython
+spacy==3.5.0
+en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.5.0/en_core_web_md-3.5.0.tar.gz
+torch
+transformers
