@@ -27,8 +27,30 @@ Ensure you have Python 3.x installed on your system. You can install all necessa
    cd Resume-Analyser
    ```
 2. Install all dependencies:
-```bash
-pip3 install -r requirements.txt
-```
-**Note**: The `requirements.txt` includes dependencies for all three applications. Ensure you check for the latest versions of the packages before installing to avoid compatibility issues.
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+    **Note**: The `requirements.txt` includes dependencies for all three applications. Ensure you check for the latest versions of the packages before installing to avoid compatibility issues.
+
+## Running the Application
+
+Each application can be run separately using the following commands:
+
+For the scikit-learn based application:
+    ```bash
+    streamlit run app_scikit.py
+    ```
+For the DistilBERT PyTorch based application:
+    ```bash
+    streamlit run app_torch.py
+    ```
+
+For the spaCy based application:
+    ```bash
+    streamlit run app_spaCy.py
+    ```
+**Note**: Open http://localhost:8502/ if the application does not open automatically after running the above commands.
+
+
+
 
