@@ -2,3 +2,5 @@ pdfminer.six==20201018
 scikit-learn==1.0.2
 torch
 Pillow==8.3.1
+Cython==0.29.30
+
