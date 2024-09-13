@@ -22,4 +22,13 @@ Ensure you have Python 3.x installed on your system. You can install all necessa
 1. Clone this repository:
    ```bash
    git clone https://github.com/Dhakshayan/Resume-Analyser.git
-   cd "Resume-Analyser"
+   ```
+   ```bash
+   cd Resume-Analyser
+   ```
+2. Install all dependencies:
+```bash
+pip3 install -r requirements.txt
+```
+**Note**: The `requirements.txt` includes dependencies for all three applications. Ensure you check for the latest versions of the packages before installing to avoid compatibility issues.
+
