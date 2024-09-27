@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résumé-Internship Match Predictor</title>
+</head>
+<body>
+    <h1>Résumé-Internship Match Predictor</h1>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="job_description">Job Description:</label><br>
+        <textarea name="job_description" id="job_description" rows="6" cols="60"></textarea><br><br>
+
+        <label for="resumes">Upload Résumés (PDF):</label><br>
+        <input type="file" name="resumes" id="resumes" multiple><br><br>
+
+        <button type="submit">Analyze Résumés</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Matched Résumé</title>
+</head>
+<body>
+    <h3>Best Matched Résumé</h3>
+    <p><strong>Candidate Name:</strong> {{ best_candidate_name }}</p>
+    <p><strong>Match Score:</strong> {{ best_match_score }}%</p>
+    <p><strong>Email:</strong> {{ best_candidate_email }}</p>
+
+    <a href="{{ url_for('download_resume') }}" class="btn btn-primary">Download Best Résumé</a>
+</body>
+</html>
